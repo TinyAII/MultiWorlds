@@ -1,0 +1,15 @@
+name: MultiWorlds
+version: 1.0.0
+main: com.mcadmin.multiworlds.MultiWorldsPlugin
+api-version: 1.18
+description: 多世界插件：创建/传送/出生点/世界规则/传送门传送（TinyAII 出品）
+author: TinyAII
+commands:
+  多世界:
+    description: 多世界插件主命令
+    aliases: [mw, multiworlds, 世界]
+    usage: /多世界 帮助
+permissions:
+  multiworlds.admin:
+    description: 多世界管理权限（创建/删除/规则）
+    default: op
